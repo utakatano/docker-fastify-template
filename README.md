@@ -2,7 +2,8 @@
 
 ## Environment
 
-- Node.jS ... 15.14.0
+- Node.jS ... 16.2.0
+- TypeScript ... 4.3.2
 
 ## How to confirm in local
 
@@ -15,8 +16,4 @@
 % docker-compose exec develop bash
 ```
 
-2. You can run node scripts such like `node scripts/server.js` or `node scripts/plugin` and find the result in `http://localhost:3000` with your browser.
-
-```sh
-/app $ node scripts/server.js
-```
+2. You can run node scripts such like `npm start` and find the result in `http://localhost:3000` with your browser.

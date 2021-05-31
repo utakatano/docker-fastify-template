@@ -3,11 +3,18 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "start": "ts-node-dev ./scripts/server.ts"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "fastify": "^3.15.0"
+    "fastify": "^3.15.0",
+    "typescript": "^4.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^15.6.1",
+    "ts-node-dev": "^1.1.6"
   }
 }
