@@ -1,5 +1,5 @@
-FROM node:15.14.0-buster-slim
+FROM node:16.2.0-buster-slim
 
 WORKDIR /app
 
-RUN npm i
+RUN npm install
